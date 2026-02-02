@@ -16,3 +16,13 @@ echo "testing clone with ssh"
 git clone git@github.com:CatScanners/find-my-kitten.git
 cd ./find-my-kitten
 echo "repo has been cloned"
+
+read -p "Enter your email: " email 
+read -p "Enter your name: " name 
+git config --global user.email "$email" 
+git config --global user.name "$name" 
+echo "Git global config updated."
+
+#cat /etc/nvpmodel.conf
+#sudo nvpmodel -m <insert max>
+
