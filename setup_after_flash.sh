@@ -1,5 +1,9 @@
 #!bin/bash
 
+echo "This script expect you to have a newly flashed Jetson Nano orin."
+echo "If not please abort"
+read -p "Continnue dev enviroment set up?" 
+
 cd ~/
 sudo apt-get update 
 sudo apt-get install firefox
