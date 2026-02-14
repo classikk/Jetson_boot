@@ -8,6 +8,7 @@ cd ~/
 sudo apt-get update 
 sudo apt-get install firefox
 
+sudo apt-get install curl
 curl -L "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-arm64" -o vscode.deb 
 sudo apt-get install ./vscode.deb 
 rm ./vscode.deb
