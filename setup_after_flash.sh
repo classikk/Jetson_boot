@@ -32,3 +32,6 @@ echo "Git global config updated."
 #cat /etc/nvpmodel.conf
 #sudo nvpmodel -m <insert max>
 
+./simulation/setup.sh
+
+sudo apt-get install tmux
