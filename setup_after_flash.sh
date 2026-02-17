@@ -34,9 +34,12 @@ echo "Git global config updated."
 
 sudo apt install python3
 pip install uv
-
 uv sync
 
 sudo apt-get install tmux
 
 ./simulation/setup.sh
+
+git clone git@github.com:classikk/jetson_benchmark.git
+cd ./jetson_benchmark
+
