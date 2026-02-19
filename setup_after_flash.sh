@@ -6,6 +6,12 @@ read -p "Continnue dev enviroment set up?"
 
 cd ~/
 sudo apt-get update 
+
+snap download snapd --revision=24724
+sudo snap ack snapd_24724.assert
+sudo snap install snapd_24724.snap
+sudo sudo snap refresh --hold snapd
+
 sudo apt-get install firefox
 
 sudo apt-get install curl
