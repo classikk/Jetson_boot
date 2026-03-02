@@ -1,0 +1,16 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+venv/
+another/
+runs/
+videotest.mp4
+ballTree/weights/
+torch-2.9.1-cp310-cp310-linux_aarch64.whl

@@ -38,6 +38,7 @@ echo "Git global config updated."
 #cat /etc/nvpmodel.conf
 #sudo nvpmodel -m <insert max>
 
+#sudo apt install v4l-utils
 #git clone git@github.com:classikk/jetson_benchmark.git
 #cd ./jetson_benchmark
 
@@ -55,6 +56,7 @@ git lfs fetch --all
 
 git lfs checkout
 cd ./ros2_ws
+sudo nvidia-ctk cdi generate --mode=csv --output=/etc/cdi/nvidia.yaml
 ./start_isaac_dev.sh 
 
 
