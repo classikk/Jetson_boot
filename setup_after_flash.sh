@@ -59,6 +59,12 @@ cd ./ros2_ws
 sudo nvidia-ctk cdi generate --mode=csv --output=/etc/cdi/nvidia.yaml
 ./start_isaac_dev.sh 
 
+sudo apt install smem
+
+sudo apt install htop
+
+sudo pip3 install -U jetson-stats
+
 
 #curl -sSL https://get.docker.com/ | sh
 
@@ -76,3 +82,4 @@ sudo nvidia-ctk cdi generate --mode=csv --output=/etc/cdi/nvidia.yaml
 #sudo nvidia-ctk cdi generate --output=/etc/cdi/nvidia.yaml
 
 #ros2_ws/start_isaac_dev.sh
+
